@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://taimoor:coolest@devapp.atfcr.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://taimoor:coolest@devapp.atfcr.mongodb.net/Social-Network?retryWrites=true&w=majority",
+  "jwtSecret": "mySecret"
 }
