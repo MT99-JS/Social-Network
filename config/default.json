@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://taimoor:coolest@devapp.atfcr.mongodb.net/Social-Network?retryWrites=true&w=majority",
-  "jwtSecret": "mySecret"
+  "jwtSecret": "mySecret",
+  "clientId":"9f9aa8d9e2876b021d40",
+  "clientSecret":"2b77ad4113e9659a17f812581bdab6e1fe54853d"
 }
