@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from "react";
-import { NavBar } from "./components/Layout/NavBar";
+import NavBar from "./components/Layout/NavBar";
 import { Landing } from "./components/Layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
@@ -21,7 +21,7 @@ const App = () => {
   useEffect(() => {
     store.dispatch(loadUser());
   }, []);
-  
+
   return (
     <Provider store={store}>
       <Router>
